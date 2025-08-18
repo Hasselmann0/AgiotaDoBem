@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E77C92E-395F-49C6-85E6-BEAA26A788AD}|AgiotaDoBem.Domain\\AgiotaDoBem.Domain.csproj|c:\\users\\hasselmanno\\desktop\\newworld\\agiotadobem\\agiotadobem.domain\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E77C92E-395F-49C6-85E6-BEAA26A788AD}|AgiotaDoBem.Domain\\AgiotaDoBem.Domain.csproj|solutionrelative:agiotadobem.domain\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E77C92E-395F-49C6-85E6-BEAA26A788AD}|AgiotaDoBem.Domain\\AgiotaDoBem.Domain.csproj|c:\\users\\hasselmanno\\desktop\\newworld\\agiotadobem\\agiotadobem.domain\\statusdopagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E77C92E-395F-49C6-85E6-BEAA26A788AD}|AgiotaDoBem.Domain\\AgiotaDoBem.Domain.csproj|solutionrelative:agiotadobem.domain\\statusdopagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F18AF578-87E7-4F3C-90C4-EE0E982B7AE2}|AgiotaDoBem.Infra\\AgiotaDoBem.Infra.csproj|c:\\users\\hasselmanno\\desktop\\newworld\\agiotadobem\\agiotadobem.infra\\migrations\\20250818222847_criacaobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18AF578-87E7-4F3C-90C4-EE0E982B7AE2}|AgiotaDoBem.Infra\\AgiotaDoBem.Infra.csproj|solutionrelative:agiotadobem.infra\\migrations\\20250818222847_criacaobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StatusDoPagamento.cs",
-              "DocumentMoniker": "C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\AgiotaDoBem.Domain\\StatusDoPagamento.cs",
-              "RelativeDocumentMoniker": "AgiotaDoBem.Domain\\StatusDoPagamento.cs",
-              "ToolTip": "C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\AgiotaDoBem.Domain\\StatusDoPagamento.cs",
-              "RelativeToolTip": "AgiotaDoBem.Domain\\StatusDoPagamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T18:01:31.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsuarioModel.cs",
-              "DocumentMoniker": "C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\AgiotaDoBem.Domain\\UsuarioModel.cs",
-              "RelativeDocumentMoniker": "AgiotaDoBem.Domain\\UsuarioModel.cs",
-              "ToolTip": "C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\AgiotaDoBem.Domain\\UsuarioModel.cs",
-              "RelativeToolTip": "AgiotaDoBem.Domain\\UsuarioModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Title": "20250818222847_CriacaoBanco.cs",
+              "DocumentMoniker": "C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\AgiotaDoBem.Infra\\Migrations\\20250818222847_CriacaoBanco.cs",
+              "RelativeDocumentMoniker": "AgiotaDoBem.Infra\\Migrations\\20250818222847_CriacaoBanco.cs",
+              "ToolTip": "C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\AgiotaDoBem.Infra\\Migrations\\20250818222847_CriacaoBanco.cs",
+              "RelativeToolTip": "AgiotaDoBem.Infra\\Migrations\\20250818222847_CriacaoBanco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T17:58:22.228Z",
+              "WhenOpened": "2025-08-18T22:28:47.881Z",
               "EditorCaption": ""
             }
           ]

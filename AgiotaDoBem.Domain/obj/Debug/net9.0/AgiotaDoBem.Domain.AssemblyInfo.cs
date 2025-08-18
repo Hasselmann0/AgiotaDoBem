@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgiotaDoBem.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f69d83c3fa19ee02776a27c83bb5a7403ab3bf7")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgiotaDoBem.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgiotaDoBem.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

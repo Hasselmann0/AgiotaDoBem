@@ -1,6 +1,3 @@
 @AgiotaDoBem_HostAddress = http://localhost:5027
 
-GET {{AgiotaDoBem_HostAddress}}/weatherforecast/
-Accept: application/json
 
-###
