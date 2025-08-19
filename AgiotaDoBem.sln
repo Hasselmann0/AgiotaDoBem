@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgiotaDoBem", "AgiotaDoBem\AgiotaDoBem.csproj", "{62519FD2-D57B-4A7D-8D34-8325AE8D1AA9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4E77C92E-395F-49C6-85E6-BEAA26A788AD} = {4E77C92E-395F-49C6-85E6-BEAA26A788AD}
+		{74F13672-988F-426B-A93C-E74FF46AD11B} = {74F13672-988F-426B-A93C-E74FF46AD11B}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - WebAPI", "0 - WebAPI", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject

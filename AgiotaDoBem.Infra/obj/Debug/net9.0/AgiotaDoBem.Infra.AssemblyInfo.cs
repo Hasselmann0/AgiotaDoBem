@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgiotaDoBem.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f69d83c3fa19ee02776a27c83bb5a7403ab3bf7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd0fd0d202f7252727bbd72667955e0b8e833177")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgiotaDoBem.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgiotaDoBem.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

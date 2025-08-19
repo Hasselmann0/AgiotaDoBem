@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\AgiotaDoBem.Infra\\Migrations\\20250818222847_CriacaoBanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AgiotaDoBem.Infra\\Migrations\\20250818222847_CriacaoBanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,20 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250818222847_CriacaoBanco.cs",
-              "DocumentMoniker": "C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\AgiotaDoBem.Infra\\Migrations\\20250818222847_CriacaoBanco.cs",
-              "RelativeDocumentMoniker": "AgiotaDoBem.Infra\\Migrations\\20250818222847_CriacaoBanco.cs",
-              "ToolTip": "C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\AgiotaDoBem.Infra\\Migrations\\20250818222847_CriacaoBanco.cs",
-              "RelativeToolTip": "AgiotaDoBem.Infra\\Migrations\\20250818222847_CriacaoBanco.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T22:28:47.881Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

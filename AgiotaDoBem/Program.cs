@@ -1,5 +1,6 @@
+using AgiotaDoBem.Application.Applications;
+using AgiotaDoBem.Application.Interfaces;
 using AgiotaDoBem.Infra.Context;
-using Microsoft.AspNetCore.Connections;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +17,8 @@ builder.Services.AddDbContext<AgiotaDoBemContext>(options =>
 {
     options.UseSqlServer(connectionString);
 });
+
+builder.Services.AddScoped<IUsuarioApplication, UsuarioApplication>();
 
 var app = builder.Build();
 

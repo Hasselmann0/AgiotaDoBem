@@ -1631,6 +1631,16 @@
           }
         }
       },
+      "AgiotaDoBem.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/AgiotaDoBem.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AgiotaDoBem.Application.dll": {}
+        }
+      },
       "AgiotaDoBem.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -4790,6 +4800,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "AgiotaDoBem.Application/1.0.0": {
+      "type": "project",
+      "path": "../AgiotaDoBem.Application/AgiotaDoBem.Application.csproj",
+      "msbuildProject": "../AgiotaDoBem.Application/AgiotaDoBem.Application.csproj"
+    },
     "AgiotaDoBem.Domain/1.0.0": {
       "type": "project",
       "path": "../AgiotaDoBem.Domain/AgiotaDoBem.Domain.csproj",
@@ -4803,6 +4818,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "AgiotaDoBem.Application >= 1.0.0",
       "AgiotaDoBem.Infra >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.3",
       "Microsoft.EntityFrameworkCore >= 9.0.8",
@@ -4841,6 +4857,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\AgiotaDoBem.Application\\AgiotaDoBem.Application.csproj": {
+              "projectPath": "C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\AgiotaDoBem.Application\\AgiotaDoBem.Application.csproj"
+            },
             "C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\AgiotaDoBem.Infra\\AgiotaDoBem.Infra.csproj": {
               "projectPath": "C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\AgiotaDoBem.Infra\\AgiotaDoBem.Infra.csproj"
             }
