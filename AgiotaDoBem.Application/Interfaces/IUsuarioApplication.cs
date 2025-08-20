@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AgiotaDoBem.Application.DTOs;
 
 namespace AgiotaDoBem.Application.Interfaces
 {
     public interface IUsuarioApplication
     {
-
+        List<UsuarioDTO> RetornarTodos();
     }
 }

@@ -1,6 +1,9 @@
+using AgiotaDoBem.Application;
 using AgiotaDoBem.Application.Applications;
 using AgiotaDoBem.Application.Interfaces;
 using AgiotaDoBem.Infra.Context;
+using AgiotaDoBem.Infra.Interfaces;
+using AgiotaDoBem.Infra.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +22,7 @@ builder.Services.AddDbContext<AgiotaDoBemContext>(options =>
 });
 
 builder.Services.AddScoped<IUsuarioApplication, UsuarioApplication>();
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
 var app = builder.Build();
 

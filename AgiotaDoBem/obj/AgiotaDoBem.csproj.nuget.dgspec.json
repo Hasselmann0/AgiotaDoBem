@@ -31,7 +31,14 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\AgiotaDoBem.Domain\\AgiotaDoBem.Domain.csproj": {
+                "projectPath": "C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\AgiotaDoBem.Domain\\AgiotaDoBem.Domain.csproj"
+              },
+              "C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\AgiotaDoBem.Infra\\AgiotaDoBem.Infra.csproj": {
+                "projectPath": "C:\\Users\\Hasselmanno\\Desktop\\NewWorld\\AgiotaDoBem\\AgiotaDoBem.Infra\\AgiotaDoBem.Infra.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

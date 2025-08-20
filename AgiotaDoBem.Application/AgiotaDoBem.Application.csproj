@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AgiotaDoBem.Domain\AgiotaDoBem.Domain.csproj" />
+    <ProjectReference Include="..\AgiotaDoBem.Infra\AgiotaDoBem.Infra.csproj" />
+  </ItemGroup>
+
 </Project>
