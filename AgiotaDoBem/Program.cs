@@ -1,10 +1,10 @@
-using AgiotaDoBem.Application;
 using AgiotaDoBem.Application.Applications;
 using AgiotaDoBem.Application.Interfaces;
 using AgiotaDoBem.Infra.Context;
 using AgiotaDoBem.Infra.Interfaces;
 using AgiotaDoBem.Infra.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +30,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.MapScalarApiReference();
 }
 
 app.UseHttpsRedirection();

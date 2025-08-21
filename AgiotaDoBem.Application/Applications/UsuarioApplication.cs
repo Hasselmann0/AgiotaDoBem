@@ -19,6 +19,7 @@ namespace AgiotaDoBem.Application.Applications
 
             return usuarios.Select(x => new UsuarioDTO 
             {
+                Id = x.Id,
                 NomeDoDevedor = x.NomeDoDevedor,
                 NomeDoEstabelecimento = x.DividasParaPagar.NomeDoEstabelecimento,
                 ValorTotalDaCompra = x.DividasParaPagar.ValorTotalDaCompra,

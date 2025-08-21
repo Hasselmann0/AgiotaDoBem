@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgiotaDoBem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+591bdd06dc6aad3ad4485b425ac1501d2500674a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93fa3237417185d5c0645b29fb5cf526463c0545")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgiotaDoBem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgiotaDoBem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
