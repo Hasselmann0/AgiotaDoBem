@@ -6,7 +6,7 @@ using AgiotaDoBem.Application.DTOs;
 
 namespace AgiotaDoBem.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/")]
     [ApiController]
     public class UsuarioController : ControllerBase
     {
@@ -18,12 +18,14 @@ namespace AgiotaDoBem.Controllers
 
 
         [HttpGet]
+        [Route("usuarios")]
         public IActionResult Usuarios()
         {
             return Ok(_usuarioApplication.RetornarTodos());
         }
 
         [HttpPost]
+        [Route("adicionar-usuario")]
         public IActionResult AdicionarUsuario(UsuarioDTO usuarioDTO)
         {
             _usuarioApplication.AdicionarUsuario(usuarioDTO);
@@ -31,6 +33,7 @@ namespace AgiotaDoBem.Controllers
         }
 
         [HttpPut]
+        [Route("atualizar-usuario/{id}")]
         public IActionResult AtualizarUsuario(UsuarioDTO usuarioDTO)
         {
             _usuarioApplication.AtualizarUsuario(usuarioDTO);
@@ -38,6 +41,7 @@ namespace AgiotaDoBem.Controllers
         }
 
         [HttpDelete]
+        [Route("deletar-usuario/{id}")]
         public IActionResult DeletarUsuario(int id)
         {
             _usuarioApplication.DeletarUsuario(id);

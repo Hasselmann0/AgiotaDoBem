@@ -24,6 +24,16 @@ builder.Services.AddDbContext<AgiotaDoBemContext>(options =>
 builder.Services.AddScoped<IUsuarioApplication, UsuarioApplication>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngular",
+        policy => policy
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader());
+});
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -32,6 +42,8 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
     app.MapScalarApiReference();
 }
+
+app.UseCors("AllowAngular");
 
 app.UseHttpsRedirection();
 
