@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { environment } from '../../environments/environment';
-import { usuario } from '../intefaces/usuario.interface';
+import { UsuarioInterface } from '../intefaces/usuario.interface';
 
 @Injectable({
     providedIn: 'root',
@@ -14,7 +14,7 @@ export class UsuarioService {
     }
 
     RetornarTodos() {
-        this.httpclient.get<usuario[]>(this.url + '/usuarios')
+        return this.httpclient.get<UsuarioInterface[]>(this.url + '/api/usuarios')
         
     }
 

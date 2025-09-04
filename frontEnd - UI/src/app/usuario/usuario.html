@@ -1,0 +1,24 @@
+<h2>Lista de Usuários</h2>
+
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Botoes</th>
+    </tr>
+    </thead>
+    <tbody>
+        @for (usuario of usuarios$ | async; track usuario.id) {
+        <tr >
+            <td> {{usuario.id}} </td>
+            <td> {{usuario.nomeDoDevedor}} </td>
+        </tr>
+        }
+        @empty {
+        <tr>
+            <td colspan="3">Nenhum usuário encontrado.</td>
+        </tr>
+    }
+    </tbody>
+</table>

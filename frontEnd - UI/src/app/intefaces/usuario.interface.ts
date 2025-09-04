@@ -1,5 +1,5 @@
 
-export interface usuario {
+export interface UsuarioInterface {
     id? : number,
     nomeDoDevedor : string,
     nomeDoEstabelecimento : string,
