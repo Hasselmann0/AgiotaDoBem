@@ -17,7 +17,7 @@ import { UsuarioService } from '../services/usuario.service';
 @Component({
     selector: 'app-usuario',
     templateUrl: './usuario.html',
-    styleUrl: './usuario.css',
+    styleUrl: './usuario.scss',
     imports: [
         CommonModule,
         MatTableModule,
